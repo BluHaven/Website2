@@ -1,0 +1,56 @@
+body{
+		     width:1110px;
+			 background:rgb(255,255,0);
+			 max-width:95%;
+			 margin:auto;
+			 }
+	       h1{
+			 float: left;
+			 color: rgb(100, 0, 0);
+			 margin: 0;
+			 }
+            header h2{
+			 text-align:center;
+			 font-weight: bold;
+			 color:rgb(100, 150, 175);
+			}
+			section{
+			 background:rgb(155, 200, 200);
+			 padding: 10px 100px;
+			}
+			section h2{
+			 text-align:center;
+			 color:rgb(0, 255, 0);
+			}
+            section p{
+			 color:rgb(0, 0, 0);
+			 font-weight: bold;
+			}
+			article{
+			 background:rgb(100, 100, 255);
+			 float:left;
+			 width: 29.3%;
+			 margin: 1%;
+			 padding: 1%;
+			 height: 200px;
+			}
+			h3{
+			 color:rgb(0, 255, 0);
+			 font-weight: bold;
+			}
+			article p{
+			 color:rgb(0, 0, 0);
+			 }
+			footer{
+			 text-align:center;
+			 background:rgb(17, 175, 175);-->
+			 <!--clear:left;-->
+			 <!--padding:25px;
+			 font-weight: bold;
+			 }
+			li{
+			 color:rgb(0, 0, 0);
+			 font-weight: bold;
+			}
+			p{
+			 font-weight: bold;
