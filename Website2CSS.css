@@ -1,8 +1,17 @@
-body{
-		     width:1110px;
-			 background:rgb(255,255,0);
+@keyframes animation1 {
+        from {background-image: url("C:/Users/Aisha Kaiser/Desktop/imagefirework.jpg");}
+        to {background-image: url("C:/Users/Aisha Kaiser/Desktop/imagedawn.jpg");}
+        
+    } 
+           body{  
+             width:1110px;
+			 background-image: url("C:/Users/Aisha Kaiser/Desktop/World map.jpg");
+             background-size: animatable;
 			 max-width:95%;
 			 margin:auto;
+             animation-name: animation1;
+             animation-duration: 10s;
+             animation-iteration-count: 500;
 			 }
 	       h1{
 			 float: left;
@@ -12,7 +21,7 @@ body{
             header h2{
 			 text-align:center;
 			 font-weight: bold;
-			 color:rgb(100, 150, 175);
+			 color:rgb(10, 150, 175);
 			}
 			section{
 			 background:rgb(155, 200, 200);
@@ -20,14 +29,14 @@ body{
 			}
 			section h2{
 			 text-align:center;
-			 color:rgb(0, 255, 0);
+			 color:rgb(100, 0, 0);
 			}
             section p{
 			 color:rgb(0, 0, 0);
 			 font-weight: bold;
 			}
 			article{
-			 background:rgb(100, 100, 255);
+			 background: rgb(100, 100, 255);
 			 float:left;
 			 width: 29.3%;
 			 margin: 1%;
