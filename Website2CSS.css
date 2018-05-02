@@ -1,12 +1,14 @@
 @keyframes animation1 {
         from {background-image: url("C:/Users/Aisha Kaiser/Desktop/imagefirework.jpg");}
-        to {background-image: url("C:/Users/Aisha Kaiser/Desktop/imagedawn.jpg");}
-        
+        to {background-image: url("C:/Users/Aisha Kaiser/Desktop/imagedawn.jpg");}    
     } 
+
+              
            body{  
              width:1110px;
 			 background-image: url("C:/Users/Aisha Kaiser/Desktop/World map.jpg");
              background-size: animatable;
+               background-image: center;
 			 max-width:95%;
 			 margin:auto;
              animation-name: animation1;
@@ -15,28 +17,30 @@
 			 }
 	       h1{
 			 float: left;
-			 color: rgb(100, 0, 0);
+			 color: rgb(255, 255, 255);
 			 margin: 0;
 			 }
             header h2{
 			 text-align:center;
 			 font-weight: bold;
-			 color:rgb(10, 150, 175);
+			 color:rgb(0, 0, 0);
+             font-size: 40px;
 			}
 			section{
-			 background:rgb(155, 200, 200);
+			 background:rgb(220, 20, 60);
 			 padding: 10px 100px;
+                
 			}
 			section h2{
 			 text-align:center;
-			 color:rgb(100, 0, 0);
+			 color:rgb(255, 255, 255);
 			}
             section p{
 			 color:rgb(0, 0, 0);
 			 font-weight: bold;
 			}
 			article{
-			 background: rgb(100, 100, 255);
+			 background: rgb(75, 0, 130);
 			 float:left;
 			 width: 29.3%;
 			 margin: 1%;
@@ -44,22 +48,34 @@
 			 height: 200px;
 			}
 			h3{
-			 color:rgb(0, 255, 0);
+			 color:rgb(255, 255, 255);
 			 font-weight: bold;
 			}
 			article p{
-			 color:rgb(0, 0, 0);
+			 color:rgb(255, 255, 255);
 			 }
 			footer{
 			 text-align:center;
-			 background:rgb(17, 175, 175);-->
+			 background:rgb(220, 20, 60);-->
 			 <!--clear:left;-->
 			 <!--padding:25px;
 			 font-weight: bold;
 			 }
 			li{
-			 color:rgb(0, 0, 0);
+			 color:rgb(255, 255, 255);
 			 font-weight: bold;
 			}
 			p{
 			 font-weight: bold;
+                color: rgb(0, 0, 0);
+          }
+             input {
+               border: 2px solid black;
+               width: 100%; 
+               font-style: Impact;
+               font-size:18px;
+                color: black;
+         }
+               ::placeholder {
+                   color: black;
+         }
