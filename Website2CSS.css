@@ -1,13 +1,13 @@
-@keyframes animation1 {
-        from {background-image: url("C:/Users/Aisha Kaiser/Desktop/imagefirework.jpg");}
-        to {background-image: url("C:/Users/Aisha Kaiser/Desktop/imagedawn.jpg");}    
-    } 
+/* @keyframes animation1 { 
+        from {background-image: url("C:/Users/Aisha Kaiser/Desktop/flames.gif");}
+        to {background-image: url("C:/Users/Aisha Kaiser/Desktop/flames.gif");} 
+    } */
 
               
            body{  
              width:1110px;
-			 background-image: url("C:/Users/Aisha Kaiser/Desktop/World map.jpg");
-             background-size: animatable;
+			 background-image: url("C:/Users/Aisha Kaiser/Desktop/flames.gif");
+             background-size: /*animatable*/cover;
                background-image: center;
 			 max-width:95%;
 			 margin:auto;
@@ -79,3 +79,6 @@
                ::placeholder {
                    color: black;
          }
+                 .Submit {
+                  background-color: green; /* Green */
+        }
