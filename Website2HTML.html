@@ -1,16 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script>   
-  function myExamplefunction() {
-    document.getElementByName('emailSubmitbutton').innerHTML = "Submit Successful";
-}
-</script>  
+
    <title>My First Website </title>
      <link type="text/css" rel="stylesheet" href="C:\Users\Aisha Kaiser\Videos\Website 2 Sandbox Project\CopyWebsite2CSS.css">		
    </head>
 <body>
-
+<script src="C:/Users/Aisha Kaiser/Videos/Website 2 Sandbox Project/CopyWebsite2JS.js"></script>
   <header>
       <h1>Kaiser.com</h1>
       <h2>Where you can learn cool stuff about me</h2>
@@ -45,10 +41,16 @@
 
 
 
-    <input type="email" placeholder="                                                                                            --->  Your email here  <---">
-    <input type="submit" name="emailSubmitbutton" style="background-color: green" onClick="myExamplefunction("emailSubmitbutton)">
+    <input type="email" placeholder="                                                                                            --->  Your email here  <---"/>
+    <input type="Submit" Id="emailsubmitbutton" style="background-color: green" value="Submit" onClick= myfunction()> 
     
-  
+    
+<!--<script>
+      
+  function myfunction() {
+    document.getElementById("emailsubmitbutton").value= "Submitted!";
+}
+</script>-->  
     
 </body>
 </html>
