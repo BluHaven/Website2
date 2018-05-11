@@ -5,80 +5,89 @@
 
               
            body{  
-             width:1110px;
-			 background-image: url("C:/Users/Aisha Kaiser/Desktop/flames.gif");
-             background-size: /*animatable*/cover;
+               width:1110px;
+			   background-image: url("C:/Users/Aisha Kaiser/Desktop/flames.gif");
+               background-size: /*animatable*/cover;
                background-image: center;
-			 max-width:95%;
-			 margin:auto;
-             animation-name: animation1;
-             animation-duration: 10s;
-             animation-iteration-count: 500;
-			 }
-	       h1{
-			 float: left;
-			 color: rgb(255, 255, 255);
-			 margin: 0;
-			 }
-            header h2{
-			 text-align:center;
-			 font-weight: bold;
-			 color:rgb(0, 0, 0);
-             font-size: 40px;
-			}
-			section{
-			 background:rgb(220, 20, 60);
-			 padding: 10px 100px;
+			   max-width:95%;
+			   margin:auto;
+               animation-name: animation1;
+               animation-duration: 10s;
+               animation-iteration-count: 500;
+			   }
+	         h1{
+			   float: left;
+			   color: rgb(255, 255, 255);
+			   margin: 0;
+			   }
+      header h1{
+			   text-align:center;
+			   font-weight: bold;
+			   color:rgb(255, 255, 255);
+               font-size: 40px;
+			   }
+	    section{
+			   background: url("C:/Users/Aisha Kaiser/Videos/Website 2 Sandbox Project/Images/cool-header.jpg");
+			   padding: 10px 100px;
+			   border: 7px solid black;
                 
-			}
-			section h2{
-			 text-align:center;
-			 color:rgb(255, 255, 255);
-			}
-            section p{
-			 color:rgb(0, 0, 0);
-			 font-weight: bold;
-			}
-			article{
-			 background: rgb(75, 0, 130);
-			 float:left;
-			 width: 29.3%;
-			 margin: 1%;
-			 padding: 1%;
-			 height: 200px;
-			}
-			h3{
-			 color:rgb(255, 255, 255);
-			 font-weight: bold;
-			}
-			article p{
-			 color:rgb(255, 255, 255);
-			 }
-			footer{
-			 text-align:center;
-			 background:rgb(220, 20, 60);-->
-			 <!--clear:left;-->
-			 <!--padding:25px;
-			 font-weight: bold;
-			 }
-			li{
-			 color:rgb(255, 255, 255);
-			 font-weight: bold;
-			}
-			p{
-			 font-weight: bold;
-                color: rgb(0, 0, 0);
-          }
-             input {
-               border: 2px solid black;
-               width: 100%; 
-               font-style: Impact;
-               font-size:18px;
+			   }
+	 section h2{
+			   text-align:center;
+			   color:rgb(255, 255, 255);
+			   }
+      section p{
+			   color:rgb(255, 255, 255);
+			   font-weight: bold;
+			   }
+	    article{
+			   background: url("C:/Users/Aisha Kaiser/Videos/Website 2 Sandbox Project/Images/cool-header.jpg");
+			   background-size: cover;
+			   float:left;
+			   width: 29.3%;
+			   margin: 1%;
+			   padding: 1%;
+			   height: 200px;
+			   }
+
+			 h3{
+			   color:rgb(255, 255, 255);
+			   font-weight: bold;
+			   }
+	  article p{
+			   color:rgb(255, 255, 255);
+			   }
+
+		 footer{
+			   text-align:center;
+			   background:rgb(115, 51, 83);-->
+			   <!--clear:left;-->
+			   <!--padding:25px;
+			   font-weight: bold;
+			   }
+
+			 li{
+			   color:rgb(255, 255, 255);
+			   font-weight: bold;
+			   }
+    
+			  p{
+			    font-weight: bold;
+                color: rgb(255, 255, 255);
+                }
+
+          input {
+                border: 2px solid black;
+                width: 100%; 
+                font-style: Impact;
+                font-size:18px;
                 color: black;
-         }
-               ::placeholder {
-                   color: black;
-         }
-                 .Submit {
+                 }
+
+   ::placeholder {
+                 color: black;
+                 }
+
+         .Submit {
                   background-color: green; /* Green */
-        }
+                 }
